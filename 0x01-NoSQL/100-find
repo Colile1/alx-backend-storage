@@ -1,2 +1,2 @@
 // Script that lists all documents with name starting by ALX in the collection school
-db.school.find({ name: { $regex: "^ALX", $options: "i" } }).forEach(printjson)
+db.school.find({ name: { $regex: /^ALX/ } })
