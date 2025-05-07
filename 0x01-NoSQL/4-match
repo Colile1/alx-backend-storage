@@ -1,2 +1,2 @@
-// Script that lists all documents with name="ALX" in the collection school
-db.school.find({ name: "ALX" })
+// Script that lists the count of documents with name="ALX" in the collection school
+print(db.school.countDocuments({ name: "ALX" }))
